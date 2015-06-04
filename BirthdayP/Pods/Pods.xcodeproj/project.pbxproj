@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E87392FC3D8A2A85EFCAA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA46C50B780ECC65ACD3500C /* CoreGraphics.framework */; };
+		409045ECA941E9F779D977D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C4E90C0321DF1EACD15D2F /* UIKit.framework */; };
+		4384A43CB4BA7F6FA1B49958 /* Pods-RDVTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B354FA73578157DB4A57C9 /* Pods-RDVTabBarController-dummy.m */; };
+		46BE09D0BF643A592C14DC27 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F629985AAAF850E61461DAB0 /* RDVTabBarController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E093782939BBD0B26BC1DCC /* RDVTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CEA8D6F2909E5D984F3632 /* RDVTabBarItem.h */; };
+		678E5EA82B2855A61F35EB92 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE07CE66A1FF0BA832E101E /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		845424AC72A90FA49802A89C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E01F95391961A79194BE73 /* Foundation.framework */; };
+		8EFDDD01DAA39D2CDA97272B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E01F95391961A79194BE73 /* Foundation.framework */; };
+		A63AA9581BB7C8E53EA449B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E01F95391961A79194BE73 /* Foundation.framework */; };
+		C731E95A695847CED8D6BE1F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DC5922C133D6B43AD829FD /* QuartzCore.framework */; };
+		DA70498F8B290BF72245D4AD /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B8D570FABD6ED5D213570 /* RDVTabBarItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DEEC1143AA0A0E3E2643D44D /* RDVTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 038B474B42484441FAD3E871 /* RDVTabBarController.h */; };
+		DEEC384F3536022D7F94B6AA /* Pods-Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 687196D8F17B228F715118F9 /* Pods-Toast-dummy.m */; };
+		E798F6FDDA63C14C056FDFD5 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D7FF9B4978B7F1675CEEBE /* RDVTabBar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EA304598856B6029C74F9BC3 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8543F6D1E92A88B1BA526EFB /* Pods-dummy.m */; };
+		F10C4FE06FB2C9E7A0FFA8C6 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F50638C1A0CBB200C5B53C2 /* UIView+Toast.h */; };
+		F9AA9D819CECEAA99E2359FD /* RDVTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D880F8AD59CE41B9C03DB50 /* RDVTabBar.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550A55B35F0EA10F675A8F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809D4089C0B48B80EB484354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7183D1EF9FD09A1E5F06B0A;
+			remoteInfo = "Pods-Toast";
+		};
+		8A5AB0C00CF272FDB30EA17B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809D4089C0B48B80EB484354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70C813120BBC8296F9F33DE;
+			remoteInfo = "Pods-RDVTabBarController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038B474B42484441FAD3E871 /* RDVTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBarController.h; path = RDVTabBarController/RDVTabBarController.h; sourceTree = "<group>"; };
+		048DADA15A9A5936D363FA5D /* Pods-RDVTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RDVTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		0D2B8D570FABD6ED5D213570 /* RDVTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBarItem.m; path = RDVTabBarController/RDVTabBarItem.m; sourceTree = "<group>"; };
+		30880B9C59831F17C09CB5A9 /* Pods-Toast-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Toast-Private.xcconfig"; sourceTree = "<group>"; };
+		48D7FF9B4978B7F1675CEEBE /* RDVTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBar.m; path = RDVTabBarController/RDVTabBar.m; sourceTree = "<group>"; };
+		4D880F8AD59CE41B9C03DB50 /* RDVTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBar.h; path = RDVTabBarController/RDVTabBar.h; sourceTree = "<group>"; };
+		55E01F95391961A79194BE73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A3634A7363AC62F309E7AF0 /* libPods-RDVTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RDVTabBarController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABACA36D83B42AC04143155 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F50638C1A0CBB200C5B53C2 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		63B354FA73578157DB4A57C9 /* Pods-RDVTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RDVTabBarController-dummy.m"; sourceTree = "<group>"; };
+		6621FDAE56426B78940F2BD4 /* Pods-Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Toast.xcconfig"; sourceTree = "<group>"; };
+		687196D8F17B228F715118F9 /* Pods-Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Toast-dummy.m"; sourceTree = "<group>"; };
+		74CEA8D6F2909E5D984F3632 /* RDVTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVTabBarItem.h; path = RDVTabBarController/RDVTabBarItem.h; sourceTree = "<group>"; };
+		74DA4AC83029EF8299B1B340 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		8543F6D1E92A88B1BA526EFB /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8CE296934E10D77CBEF52259 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		9308DD6A4EDCC6F7E06F2287 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		95388C5161ADE7F2A23DD9EE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8F1751CE77B40C2C0880F1A /* libPods-Toast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Toast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE07CE66A1FF0BA832E101E /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		D9DC5922C133D6B43AD829FD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DA7E53E36A481C7F035A49A3 /* Pods-RDVTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RDVTabBarController.xcconfig"; sourceTree = "<group>"; };
+		E2C4E90C0321DF1EACD15D2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E73CF9327819EE6115D2D7A3 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		E832DC0676EA89425CE8EE7B /* Pods-Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Toast-prefix.pch"; sourceTree = "<group>"; };
+		E85B8A0517D5B768CD104888 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		EA46C50B780ECC65ACD3500C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F4F774DF4410F67247276F0D /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F629985AAAF850E61461DAB0 /* RDVTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVTabBarController.m; path = RDVTabBarController/RDVTabBarController.m; sourceTree = "<group>"; };
+		FB7EC86CBE091B501456633B /* Pods-RDVTabBarController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RDVTabBarController-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08ADC063329A30ACDB863A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E87392FC3D8A2A85EFCAA2 /* CoreGraphics.framework in Frameworks */,
+				A63AA9581BB7C8E53EA449B1 /* Foundation.framework in Frameworks */,
+				409045ECA941E9F779D977D2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E50DE6BC46C15A28E1CCC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845424AC72A90FA49802A89C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAFDE6E3F7908DCB5FD3B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFDDD01DAA39D2CDA97272B /* Foundation.framework in Frameworks */,
+				C731E95A695847CED8D6BE1F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098A183BFE92478205EFA916 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA46C50B780ECC65ACD3500C /* CoreGraphics.framework */,
+				55E01F95391961A79194BE73 /* Foundation.framework */,
+				D9DC5922C133D6B43AD829FD /* QuartzCore.framework */,
+				E2C4E90C0321DF1EACD15D2F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0AE801D85C0D80F1939F73E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ABACA36D83B42AC04143155 /* libPods.a */,
+				5A3634A7363AC62F309E7AF0 /* libPods-RDVTabBarController.a */,
+				A8F1751CE77B40C2C0880F1A /* libPods-Toast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D2A94D3F7A77D119F20EC88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4F774DF4410F67247276F0D /* Pods-acknowledgements.markdown */,
+				8CE296934E10D77CBEF52259 /* Pods-acknowledgements.plist */,
+				8543F6D1E92A88B1BA526EFB /* Pods-dummy.m */,
+				E73CF9327819EE6115D2D7A3 /* Pods-environment.h */,
+				74DA4AC83029EF8299B1B340 /* Pods-resources.sh */,
+				E85B8A0517D5B768CD104888 /* Pods.debug.xcconfig */,
+				9308DD6A4EDCC6F7E06F2287 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		21970A6675502EE310349F14 /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4D880F8AD59CE41B9C03DB50 /* RDVTabBar.h */,
+				48D7FF9B4978B7F1675CEEBE /* RDVTabBar.m */,
+				038B474B42484441FAD3E871 /* RDVTabBarController.h */,
+				F629985AAAF850E61461DAB0 /* RDVTabBarController.m */,
+				74CEA8D6F2909E5D984F3632 /* RDVTabBarItem.h */,
+				0D2B8D570FABD6ED5D213570 /* RDVTabBarItem.m */,
+				3E8C2503D4DDA4043A819E0B /* Support Files */,
+			);
+			path = RDVTabBarController;
+			sourceTree = "<group>";
+		};
+		3E8C2503D4DDA4043A819E0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA7E53E36A481C7F035A49A3 /* Pods-RDVTabBarController.xcconfig */,
+				FB7EC86CBE091B501456633B /* Pods-RDVTabBarController-Private.xcconfig */,
+				63B354FA73578157DB4A57C9 /* Pods-RDVTabBarController-dummy.m */,
+				048DADA15A9A5936D363FA5D /* Pods-RDVTabBarController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-RDVTabBarController";
+			sourceTree = "<group>";
+		};
+		8D3792DF77A243A07E4ABB64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				098A183BFE92478205EFA916 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9DF8AB5D1BC52B4C1948EB4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D2A94D3F7A77D119F20EC88 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C52F74D3A0E765487FEE409B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21970A6675502EE310349F14 /* RDVTabBarController */,
+				E4FA229E43D15430BF7E14CF /* Toast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE1FDF2352018529E3CF5255 = {
+			isa = PBXGroup;
+			children = (
+				95388C5161ADE7F2A23DD9EE /* Podfile */,
+				8D3792DF77A243A07E4ABB64 /* Frameworks */,
+				C52F74D3A0E765487FEE409B /* Pods */,
+				0AE801D85C0D80F1939F73E6 /* Products */,
+				B9DF8AB5D1BC52B4C1948EB4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E4FA229E43D15430BF7E14CF /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				5F50638C1A0CBB200C5B53C2 /* UIView+Toast.h */,
+				ADE07CE66A1FF0BA832E101E /* UIView+Toast.m */,
+				F72DD803C32E2F7B6145DA81 /* Support Files */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		F72DD803C32E2F7B6145DA81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6621FDAE56426B78940F2BD4 /* Pods-Toast.xcconfig */,
+				30880B9C59831F17C09CB5A9 /* Pods-Toast-Private.xcconfig */,
+				687196D8F17B228F715118F9 /* Pods-Toast-dummy.m */,
+				E832DC0676EA89425CE8EE7B /* Pods-Toast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Toast";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3514E1861A1414ADA740DB3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10C4FE06FB2C9E7A0FFA8C6 /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF936E29296619A1563CE8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AA9D819CECEAA99E2359FD /* RDVTabBar.h in Headers */,
+				DEEC1143AA0A0E3E2643D44D /* RDVTabBarController.h in Headers */,
+				4E093782939BBD0B26BC1DCC /* RDVTabBarItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21C1A18103E5BF7D64C8211F /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4C1E45E4D144B16A1A2A1F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				59A55C62D7AA87ADD5CD62E5 /* Sources */,
+				52E50DE6BC46C15A28E1CCC4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CEDCA70733719463D24967E /* PBXTargetDependency */,
+				4C9476EDF1F7FFB5408A4213 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 5ABACA36D83B42AC04143155 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B7183D1EF9FD09A1E5F06B0A /* Pods-Toast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3BC581FDA18947AC2FD662 /* Build configuration list for PBXNativeTarget "Pods-Toast" */;
+			buildPhases = (
+				78E3D98B2652659E7B94FB63 /* Sources */,
+				6AAFDE6E3F7908DCB5FD3B20 /* Frameworks */,
+				3514E1861A1414ADA740DB3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Toast";
+			productName = "Pods-Toast";
+			productReference = A8F1751CE77B40C2C0880F1A /* libPods-Toast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D70C813120BBC8296F9F33DE /* Pods-RDVTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121141AEAB35FE1098E54804 /* Build configuration list for PBXNativeTarget "Pods-RDVTabBarController" */;
+			buildPhases = (
+				A56A43A7C798E885F0607F99 /* Sources */,
+				08ADC063329A30ACDB863A04 /* Frameworks */,
+				BAF936E29296619A1563CE8B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RDVTabBarController";
+			productName = "Pods-RDVTabBarController";
+			productReference = 5A3634A7363AC62F309E7AF0 /* libPods-RDVTabBarController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		809D4089C0B48B80EB484354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 7E9D4E1CC896E725012B5AAF /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE1FDF2352018529E3CF5255;
+			productRefGroup = 0AE801D85C0D80F1939F73E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21C1A18103E5BF7D64C8211F /* Pods */,
+				D70C813120BBC8296F9F33DE /* Pods-RDVTabBarController */,
+				B7183D1EF9FD09A1E5F06B0A /* Pods-Toast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59A55C62D7AA87ADD5CD62E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA304598856B6029C74F9BC3 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E3D98B2652659E7B94FB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEC384F3536022D7F94B6AA /* Pods-Toast-dummy.m in Sources */,
+				678E5EA82B2855A61F35EB92 /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56A43A7C798E885F0607F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4384A43CB4BA7F6FA1B49958 /* Pods-RDVTabBarController-dummy.m in Sources */,
+				E798F6FDDA63C14C056FDFD5 /* RDVTabBar.m in Sources */,
+				46BE09D0BF643A592C14DC27 /* RDVTabBarController.m in Sources */,
+				DA70498F8B290BF72245D4AD /* RDVTabBarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CEDCA70733719463D24967E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RDVTabBarController";
+			target = D70C813120BBC8296F9F33DE /* Pods-RDVTabBarController */;
+			targetProxy = 8A5AB0C00CF272FDB30EA17B /* PBXContainerItemProxy */;
+		};
+		4C9476EDF1F7FFB5408A4213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Toast";
+			target = B7183D1EF9FD09A1E5F06B0A /* Pods-Toast */;
+			targetProxy = 550A55B35F0EA10F675A8F81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		790BF8B7A189A1CC31875CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7EC86CBE091B501456633B /* Pods-RDVTabBarController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RDVTabBarController/Pods-RDVTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E82C18BA63D8E54CDFA3C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85B8A0517D5B768CD104888 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8A0194268C9F55642FFE3839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30880B9C59831F17C09CB5A9 /* Pods-Toast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Toast/Pods-Toast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B66E81E984D7CC715C760EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2A56F9358B39C151981567F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7EC86CBE091B501456633B /* Pods-RDVTabBarController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RDVTabBarController/Pods-RDVTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D67AB7E81CF4DA418012EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9308DD6A4EDCC6F7E06F2287 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DE24687705BA0679E923576E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF3AA6B481CF09ECF7B5E0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30880B9C59831F17C09CB5A9 /* Pods-Toast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Toast/Pods-Toast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		121141AEAB35FE1098E54804 /* Build configuration list for PBXNativeTarget "Pods-RDVTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790BF8B7A189A1CC31875CF2 /* Debug */,
+				C2A56F9358B39C151981567F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E9D4E1CC896E725012B5AAF /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE24687705BA0679E923576E /* Debug */,
+				B66E81E984D7CC715C760EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3BC581FDA18947AC2FD662 /* Build configuration list for PBXNativeTarget "Pods-Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3AA6B481CF09ECF7B5E0AC /* Debug */,
+				8A0194268C9F55642FFE3839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4C1E45E4D144B16A1A2A1F /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E82C18BA63D8E54CDFA3C53 /* Debug */,
+				D67AB7E81CF4DA418012EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 809D4089C0B48B80EB484354 /* Project object */;
+}

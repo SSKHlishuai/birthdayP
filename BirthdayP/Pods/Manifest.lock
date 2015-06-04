@@ -1,0 +1,13 @@
+PODS:
+  - RDVTabBarController (1.1.9)
+  - Toast (2.4)
+
+DEPENDENCIES:
+  - RDVTabBarController
+  - Toast
+
+SPEC CHECKSUMS:
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+
+COCOAPODS: 0.37.0
