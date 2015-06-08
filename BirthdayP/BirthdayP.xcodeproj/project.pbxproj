@@ -14,6 +14,36 @@
 		4C899FA31B1FEC4E006A5A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C899FA21B1FEC4E006A5A7E /* Images.xcassets */; };
 		4C899FA61B1FEC4E006A5A7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C899FA41B1FEC4E006A5A7E /* LaunchScreen.xib */; };
 		4C899FB21B1FEC4E006A5A7E /* BirthdayPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C899FB11B1FEC4E006A5A7E /* BirthdayPTests.m */; };
+		4C899FC31B202B4C006A5A7E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C899FC21B202B4C006A5A7E /* HomeViewController.m */; };
+		4C899FC61B202B54006A5A7E /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C899FC51B202B54006A5A7E /* AddViewController.m */; };
+		4C899FC91B202B5D006A5A7E /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C899FC81B202B5D006A5A7E /* ListViewController.m */; };
+		4C899FCC1B202B72006A5A7E /* MyTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C899FCB1B202B72006A5A7E /* MyTabViewController.m */; };
+		4C899FD41B202C94006A5A7E /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C899FD31B202C94006A5A7E /* UIViewExt.m */; };
+		4C899FDD1B202DDB006A5A7E /* tab_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C899FD81B202DDB006A5A7E /* tab_add@2x.png */; };
+		4C899FDE1B202DDB006A5A7E /* tab_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C899FD91B202DDB006A5A7E /* tab_home@2x.png */; };
+		4C899FDF1B202DDB006A5A7E /* tab_home_tap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C899FDA1B202DDB006A5A7E /* tab_home_tap@2x.png */; };
+		4C899FE01B202DDB006A5A7E /* tab_personal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C899FDB1B202DDB006A5A7E /* tab_personal@2x.png */; };
+		4C899FE11B202DDB006A5A7E /* tab_personal_tap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C899FDC1B202DDB006A5A7E /* tab_personal_tap@2x.png */; };
+		4C9FDA7B1B217BE90049E827 /* MyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FDA7A1B217BE90049E827 /* MyDate.m */; };
+		4CA65F901B2531CB009BD45A /* NSString+MyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA65F8F1B2531CB009BD45A /* NSString+MyDate.m */; };
+		4CA65F961B256BE3009BD45A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA65F951B256BE3009BD45A /* BaseViewController.m */; };
+		4CAE36F81B257B8800309EEE /* BirthCanlendarDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE36ED1B257B8800309EEE /* BirthCanlendarDateView.m */; };
+		4CAE36F91B257B8800309EEE /* BirthCanlendarShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE36EF1B257B8800309EEE /* BirthCanlendarShow.m */; };
+		4CAE36FA1B257B8800309EEE /* BirthCanlendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE36F11B257B8800309EEE /* BirthCanlendarView.m */; };
+		4CAE36FB1B257B8800309EEE /* CalendarDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE36F31B257B8800309EEE /* CalendarDateView.m */; };
+		4CAE36FC1B257B8800309EEE /* OneDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE36F51B257B8800309EEE /* OneDateView.m */; };
+		4CAE36FD1B257B8800309EEE /* XZWCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE36F71B257B8800309EEE /* XZWCalendarView.m */; };
+		4CAE37001B257B9A00309EEE /* AddNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE36FF1B257B9A00309EEE /* AddNewView.m */; };
+		4CAE37031B25886A00309EEE /* GenderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE37021B25886A00309EEE /* GenderButton.m */; };
+		4CAE37091B258A8500309EEE /* gender_taped.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37051B258A8500309EEE /* gender_taped.png */; };
+		4CAE370A1B258A8500309EEE /* gender_taped@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37061B258A8500309EEE /* gender_taped@2x.png */; };
+		4CAE370B1B258A8500309EEE /* gender_untaped.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37071B258A8500309EEE /* gender_untaped.png */; };
+		4CAE370C1B258A8500309EEE /* gender_untaped@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37081B258A8500309EEE /* gender_untaped@2x.png */; };
+		4CAE370F1B2597FC00309EEE /* StartScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE370E1B2597FC00309EEE /* StartScroll.m */; };
+		4CAE37151B25982A00309EEE /* backgroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37111B25982A00309EEE /* backgroundStar.png */; };
+		4CAE37161B25982A00309EEE /* backgroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37121B25982A00309EEE /* backgroundStar@2x.png */; };
+		4CAE37171B25982A00309EEE /* foregroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37131B25982A00309EEE /* foregroundStar.png */; };
+		4CAE37181B25982A00309EEE /* foregroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37141B25982A00309EEE /* foregroundStar@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +69,57 @@
 		4C899FAB1B1FEC4E006A5A7E /* BirthdayPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C899FB01B1FEC4E006A5A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C899FB11B1FEC4E006A5A7E /* BirthdayPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayPTests.m; sourceTree = "<group>"; };
+		4C899FC11B202B4C006A5A7E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4C899FC21B202B4C006A5A7E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4C899FC41B202B54006A5A7E /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		4C899FC51B202B54006A5A7E /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		4C899FC71B202B5D006A5A7E /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		4C899FC81B202B5D006A5A7E /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		4C899FCA1B202B72006A5A7E /* MyTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabViewController.h; sourceTree = "<group>"; };
+		4C899FCB1B202B72006A5A7E /* MyTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabViewController.m; sourceTree = "<group>"; };
+		4C899FCD1B202B8B006A5A7E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4C899FD01B202BEA006A5A7E /* UsualDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsualDefine.h; sourceTree = "<group>"; };
+		4C899FD11B202C29006A5A7E /* GeneralDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralDefine.h; sourceTree = "<group>"; };
+		4C899FD21B202C94006A5A7E /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		4C899FD31B202C94006A5A7E /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		4C899FD81B202DDB006A5A7E /* tab_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_add@2x.png"; sourceTree = "<group>"; };
+		4C899FD91B202DDB006A5A7E /* tab_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_home@2x.png"; sourceTree = "<group>"; };
+		4C899FDA1B202DDB006A5A7E /* tab_home_tap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_home_tap@2x.png"; sourceTree = "<group>"; };
+		4C899FDB1B202DDB006A5A7E /* tab_personal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_personal@2x.png"; sourceTree = "<group>"; };
+		4C899FDC1B202DDB006A5A7E /* tab_personal_tap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_personal_tap@2x.png"; sourceTree = "<group>"; };
+		4C899FE21B202E32006A5A7E /* CustomDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomDefine.h; sourceTree = "<group>"; };
+		4C9FDA791B217BE90049E827 /* MyDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDate.h; sourceTree = "<group>"; };
+		4C9FDA7A1B217BE90049E827 /* MyDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDate.m; sourceTree = "<group>"; };
+		4CA65F8E1B2531CB009BD45A /* NSString+MyDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MyDate.h"; sourceTree = "<group>"; };
+		4CA65F8F1B2531CB009BD45A /* NSString+MyDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MyDate.m"; sourceTree = "<group>"; };
+		4CA65F941B256BE3009BD45A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4CA65F951B256BE3009BD45A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4CAE36EC1B257B8800309EEE /* BirthCanlendarDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthCanlendarDateView.h; sourceTree = "<group>"; };
+		4CAE36ED1B257B8800309EEE /* BirthCanlendarDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthCanlendarDateView.m; sourceTree = "<group>"; };
+		4CAE36EE1B257B8800309EEE /* BirthCanlendarShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthCanlendarShow.h; sourceTree = "<group>"; };
+		4CAE36EF1B257B8800309EEE /* BirthCanlendarShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthCanlendarShow.m; sourceTree = "<group>"; };
+		4CAE36F01B257B8800309EEE /* BirthCanlendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthCanlendarView.h; sourceTree = "<group>"; };
+		4CAE36F11B257B8800309EEE /* BirthCanlendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthCanlendarView.m; sourceTree = "<group>"; };
+		4CAE36F21B257B8800309EEE /* CalendarDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDateView.h; sourceTree = "<group>"; };
+		4CAE36F31B257B8800309EEE /* CalendarDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDateView.m; sourceTree = "<group>"; };
+		4CAE36F41B257B8800309EEE /* OneDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneDateView.h; sourceTree = "<group>"; };
+		4CAE36F51B257B8800309EEE /* OneDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneDateView.m; sourceTree = "<group>"; };
+		4CAE36F61B257B8800309EEE /* XZWCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZWCalendarView.h; sourceTree = "<group>"; };
+		4CAE36F71B257B8800309EEE /* XZWCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZWCalendarView.m; sourceTree = "<group>"; };
+		4CAE36FE1B257B9A00309EEE /* AddNewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewView.h; sourceTree = "<group>"; };
+		4CAE36FF1B257B9A00309EEE /* AddNewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewView.m; sourceTree = "<group>"; };
+		4CAE37011B25886A00309EEE /* GenderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenderButton.h; sourceTree = "<group>"; };
+		4CAE37021B25886A00309EEE /* GenderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenderButton.m; sourceTree = "<group>"; };
+		4CAE37051B258A8500309EEE /* gender_taped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gender_taped.png; sourceTree = "<group>"; };
+		4CAE37061B258A8500309EEE /* gender_taped@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gender_taped@2x.png"; sourceTree = "<group>"; };
+		4CAE37071B258A8500309EEE /* gender_untaped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gender_untaped.png; sourceTree = "<group>"; };
+		4CAE37081B258A8500309EEE /* gender_untaped@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gender_untaped@2x.png"; sourceTree = "<group>"; };
+		4CAE370D1B2597FC00309EEE /* StartScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScroll.h; sourceTree = "<group>"; };
+		4CAE370E1B2597FC00309EEE /* StartScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScroll.m; sourceTree = "<group>"; };
+		4CAE37111B25982A00309EEE /* backgroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundStar.png; sourceTree = "<group>"; };
+		4CAE37121B25982A00309EEE /* backgroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@2x.png"; sourceTree = "<group>"; };
+		4CAE37131B25982A00309EEE /* foregroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foregroundStar.png; sourceTree = "<group>"; };
+		4CAE37141B25982A00309EEE /* foregroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foregroundStar@2x.png"; sourceTree = "<group>"; };
 		A7F61BDC79526E92FB667027 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FC993B8D1E026B529EE5E9B2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9264DFABE10ED4CB1A84AA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +175,12 @@
 		4C899F941B1FEC4E006A5A7E /* BirthdayP */ = {
 			isa = PBXGroup;
 			children = (
+				4C899FBB1B202AB8006A5A7E /* base */,
+				4C899FBC1B202AB8006A5A7E /* const */,
+				4C899FBD1B202AB8006A5A7E /* controller */,
+				4C899FBE1B202AB8006A5A7E /* imagesource */,
+				4C899FBF1B202AB8006A5A7E /* model */,
+				4C899FC01B202AB8006A5A7E /* view */,
 				4C899F991B1FEC4E006A5A7E /* AppDelegate.h */,
 				4C899F9A1B1FEC4E006A5A7E /* AppDelegate.m */,
 				4C899F9C1B1FEC4E006A5A7E /* ViewController.h */,
@@ -129,6 +216,139 @@
 				4C899FB01B1FEC4E006A5A7E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C899FBB1B202AB8006A5A7E /* base */ = {
+			isa = PBXGroup;
+			children = (
+				4CA65F941B256BE3009BD45A /* BaseViewController.h */,
+				4CA65F951B256BE3009BD45A /* BaseViewController.m */,
+				4C899FCA1B202B72006A5A7E /* MyTabViewController.h */,
+				4C899FCB1B202B72006A5A7E /* MyTabViewController.m */,
+				4C9FDA791B217BE90049E827 /* MyDate.h */,
+				4C9FDA7A1B217BE90049E827 /* MyDate.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		4C899FBC1B202AB8006A5A7E /* const */ = {
+			isa = PBXGroup;
+			children = (
+				4CA65F8E1B2531CB009BD45A /* NSString+MyDate.h */,
+				4CA65F8F1B2531CB009BD45A /* NSString+MyDate.m */,
+				4C899FD21B202C94006A5A7E /* UIViewExt.h */,
+				4C899FD31B202C94006A5A7E /* UIViewExt.m */,
+				4C899FCD1B202B8B006A5A7E /* PrefixHeader.pch */,
+				4C899FD01B202BEA006A5A7E /* UsualDefine.h */,
+				4C899FD11B202C29006A5A7E /* GeneralDefine.h */,
+				4C899FE21B202E32006A5A7E /* CustomDefine.h */,
+			);
+			path = const;
+			sourceTree = "<group>";
+		};
+		4C899FBD1B202AB8006A5A7E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C899FC11B202B4C006A5A7E /* HomeViewController.h */,
+				4C899FC21B202B4C006A5A7E /* HomeViewController.m */,
+				4C899FC41B202B54006A5A7E /* AddViewController.h */,
+				4C899FC51B202B54006A5A7E /* AddViewController.m */,
+				4C899FC71B202B5D006A5A7E /* ListViewController.h */,
+				4C899FC81B202B5D006A5A7E /* ListViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4C899FBE1B202AB8006A5A7E /* imagesource */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE37041B258A8500309EEE /* addview */,
+				4C899FD71B202DDB006A5A7E /* tabbar */,
+			);
+			path = imagesource;
+			sourceTree = "<group>";
+		};
+		4C899FBF1B202AB8006A5A7E /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4C899FC01B202AB8006A5A7E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE36EA1B257B8800309EEE /* addView */,
+				4CAE36EB1B257B8800309EEE /* listView */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4C899FD71B202DDB006A5A7E /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				4C899FD81B202DDB006A5A7E /* tab_add@2x.png */,
+				4C899FD91B202DDB006A5A7E /* tab_home@2x.png */,
+				4C899FDA1B202DDB006A5A7E /* tab_home_tap@2x.png */,
+				4C899FDB1B202DDB006A5A7E /* tab_personal@2x.png */,
+				4C899FDC1B202DDB006A5A7E /* tab_personal_tap@2x.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		4CAE36EA1B257B8800309EEE /* addView */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE370D1B2597FC00309EEE /* StartScroll.h */,
+				4CAE370E1B2597FC00309EEE /* StartScroll.m */,
+				4CAE36FE1B257B9A00309EEE /* AddNewView.h */,
+				4CAE36FF1B257B9A00309EEE /* AddNewView.m */,
+				4CAE37011B25886A00309EEE /* GenderButton.h */,
+				4CAE37021B25886A00309EEE /* GenderButton.m */,
+			);
+			path = addView;
+			sourceTree = "<group>";
+		};
+		4CAE36EB1B257B8800309EEE /* listView */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE36EC1B257B8800309EEE /* BirthCanlendarDateView.h */,
+				4CAE36ED1B257B8800309EEE /* BirthCanlendarDateView.m */,
+				4CAE36EE1B257B8800309EEE /* BirthCanlendarShow.h */,
+				4CAE36EF1B257B8800309EEE /* BirthCanlendarShow.m */,
+				4CAE36F01B257B8800309EEE /* BirthCanlendarView.h */,
+				4CAE36F11B257B8800309EEE /* BirthCanlendarView.m */,
+				4CAE36F21B257B8800309EEE /* CalendarDateView.h */,
+				4CAE36F31B257B8800309EEE /* CalendarDateView.m */,
+				4CAE36F41B257B8800309EEE /* OneDateView.h */,
+				4CAE36F51B257B8800309EEE /* OneDateView.m */,
+				4CAE36F61B257B8800309EEE /* XZWCalendarView.h */,
+				4CAE36F71B257B8800309EEE /* XZWCalendarView.m */,
+			);
+			path = listView;
+			sourceTree = "<group>";
+		};
+		4CAE37041B258A8500309EEE /* addview */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE37101B25982A00309EEE /* Image */,
+				4CAE37051B258A8500309EEE /* gender_taped.png */,
+				4CAE37061B258A8500309EEE /* gender_taped@2x.png */,
+				4CAE37071B258A8500309EEE /* gender_untaped.png */,
+				4CAE37081B258A8500309EEE /* gender_untaped@2x.png */,
+			);
+			path = addview;
+			sourceTree = "<group>";
+		};
+		4CAE37101B25982A00309EEE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE37111B25982A00309EEE /* backgroundStar.png */,
+				4CAE37121B25982A00309EEE /* backgroundStar@2x.png */,
+				4CAE37131B25982A00309EEE /* foregroundStar.png */,
+				4CAE37141B25982A00309EEE /* foregroundStar@2x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		B1E887BF4646823175B6F090 /* Pods */ = {
@@ -222,8 +442,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C899FDD1B202DDB006A5A7E /* tab_add@2x.png in Resources */,
+				4C899FE11B202DDB006A5A7E /* tab_personal_tap@2x.png in Resources */,
+				4CAE37181B25982A00309EEE /* foregroundStar@2x.png in Resources */,
+				4C899FDF1B202DDB006A5A7E /* tab_home_tap@2x.png in Resources */,
+				4CAE37151B25982A00309EEE /* backgroundStar.png in Resources */,
+				4C899FE01B202DDB006A5A7E /* tab_personal@2x.png in Resources */,
 				4C899FA61B1FEC4E006A5A7E /* LaunchScreen.xib in Resources */,
+				4CAE37091B258A8500309EEE /* gender_taped.png in Resources */,
+				4CAE370C1B258A8500309EEE /* gender_untaped@2x.png in Resources */,
+				4CAE37171B25982A00309EEE /* foregroundStar.png in Resources */,
 				4C899FA31B1FEC4E006A5A7E /* Images.xcassets in Resources */,
+				4CAE370A1B258A8500309EEE /* gender_taped@2x.png in Resources */,
+				4CAE370B1B258A8500309EEE /* gender_untaped.png in Resources */,
+				4C899FDE1B202DDB006A5A7E /* tab_home@2x.png in Resources */,
+				4CAE37161B25982A00309EEE /* backgroundStar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +507,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C899FD41B202C94006A5A7E /* UIViewExt.m in Sources */,
+				4C899FC61B202B54006A5A7E /* AddViewController.m in Sources */,
+				4CA65F901B2531CB009BD45A /* NSString+MyDate.m in Sources */,
+				4CAE36FC1B257B8800309EEE /* OneDateView.m in Sources */,
 				4C899F9E1B1FEC4E006A5A7E /* ViewController.m in Sources */,
+				4CAE370F1B2597FC00309EEE /* StartScroll.m in Sources */,
+				4C899FC91B202B5D006A5A7E /* ListViewController.m in Sources */,
+				4CAE36F81B257B8800309EEE /* BirthCanlendarDateView.m in Sources */,
+				4CAE37001B257B9A00309EEE /* AddNewView.m in Sources */,
+				4CA65F961B256BE3009BD45A /* BaseViewController.m in Sources */,
+				4CAE36F91B257B8800309EEE /* BirthCanlendarShow.m in Sources */,
+				4CAE37031B25886A00309EEE /* GenderButton.m in Sources */,
+				4C9FDA7B1B217BE90049E827 /* MyDate.m in Sources */,
+				4CAE36FA1B257B8800309EEE /* BirthCanlendarView.m in Sources */,
+				4C899FCC1B202B72006A5A7E /* MyTabViewController.m in Sources */,
+				4CAE36FD1B257B8800309EEE /* XZWCalendarView.m in Sources */,
+				4CAE36FB1B257B8800309EEE /* CalendarDateView.m in Sources */,
 				4C899F9B1B1FEC4E006A5A7E /* AppDelegate.m in Sources */,
 				4C899F981B1FEC4E006A5A7E /* main.m in Sources */,
+				4C899FC31B202B4C006A5A7E /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +645,8 @@
 			baseConfigurationReference = FE9264DFABE10ED4CB1A84AA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BirthdayP/const/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = BirthdayP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +658,8 @@
 			baseConfigurationReference = A7F61BDC79526E92FB667027 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BirthdayP/const/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = BirthdayP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
