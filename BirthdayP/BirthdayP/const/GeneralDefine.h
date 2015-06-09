@@ -23,7 +23,7 @@
 
 
 //    数据库路径
-#define MNDB_PATH [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"GB.db"]
+#define MNDB_PATH [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"mydatabase.sqlite"]
 
 
 

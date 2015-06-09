@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initializeAddview];
+    [self InitializeSubmitButton];
     // Do any additional setup after loading the view.
 }
 
@@ -32,6 +33,26 @@
     _addview = [[AddNewView alloc]initWithFrame:FRAME(0, NavaStatusHeight, kScreenWidth, kScreenHeight-NavaStatusHeight-49)];
     _addview.backgroundColor = HexRGB(0xffffff);
     [self.view addSubview:_addview];
+}
+
+
+-(void)InitializeSubmitButton
+{
+    UIButton *submitB = [UIButton buttonWithType:UIButtonTypeCustom];
+    [submitB setTitle:@"提交" forState:UIControlStateNormal];
+    [submitB setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    submitB.frame = FRAME(0, kScreenHeight-49-40, kScreenWidth, 40);
+    submitB.backgroundColor = HexRGB(0x999999);
+    [self.view addSubview:submitB];
+    [submitB addTarget:self action:@selector(submitClick) forControlEvents:UIControlEventTouchUpInside];
+}
+
+
+#pragma mark - actions
+-(void)submitClick
+{
+    NSLog(@"%@",NSHomeDirectory());
+    [_addview submitToDb];
 }
 
 - (void)didReceiveMemoryWarning {

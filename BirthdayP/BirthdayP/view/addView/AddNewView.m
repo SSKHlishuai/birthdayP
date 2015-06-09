@@ -52,11 +52,30 @@ enum{
     UITextView  *remarkView;
     
     UIDatePicker *myDatePicker;
+    
+    UIControl *_myControls;
 }
 
 @end
 
 @implementation AddNewView
+
+
+
+#pragma mark - public
+-(void)submitToDb
+{
+    BirthModel *model = [[BirthModel alloc]init];
+    model.bname = nameTF.text;
+    model.bgender = @"1";
+    model.blevel = levellabel.text;
+    model.bbirthday = birthTF.text;
+    model.buserid = [[NSDate date]description];
+    [[BirthDatabase shareInstance]insertPIDataWithModel:model];
+    
+}
+
+
 
 
 -(instancetype)initWithFrame:(CGRect)frame
@@ -156,6 +175,14 @@ enum{
     remarkView.backgroundColor = HexRGB(0xeeeeee);
     [self addSubview:remarkView];
     
+    
+    _myControls = [[UIControl alloc]initWithFrame:FRAME(0, 0, self.width, self.height)];
+    [_myControls addTarget:self action:@selector(controlClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self addSubview:_myControls];
+
+    [self sendSubviewToBack:_myControls];
+    
 }
 
 
@@ -182,6 +209,14 @@ enum{
     NSString *dateAndTime = [dateFormatter stringFromDate:select];
     birthTF.text = dateAndTime;
 }
+
+-(void)controlClick:(id)sender
+{
+    [nameTF resignFirstResponder];
+    [birthTF resignFirstResponder];
+    [remarkView resignFirstResponder];
+}
+
 
 #pragma mark - StarDelegate
 -(void)startScroll:(StartScroll *)view score:(float)score

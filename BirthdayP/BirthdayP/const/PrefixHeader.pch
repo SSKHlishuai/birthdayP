@@ -17,4 +17,6 @@
 #import "GeneralDefine.h"
 #import "NSString+MyDate.h"
 #import "UIViewExt.h"
+#import "BirthDatabase.h"
+#import "BirthModel.h"
 #endif

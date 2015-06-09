@@ -16,8 +16,25 @@
 @implementation AppDelegate
 
 
+
+#pragma mark --------链接数据库
+-(void)MNcopyDataBase
+{
+    if(![[NSFileManager defaultManager]fileExistsAtPath:MNDB_PATH]){
+        [[NSFileManager defaultManager]copyItemAtPath:[[NSBundle mainBundle]pathForResource:@"mydatabase" ofType:@"sqlite"] toPath:MNDB_PATH error:nil];
+        
+    }
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    [self MNcopyDataBase];
+    
+    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     self.myTab = [[MyTabViewController alloc]init];

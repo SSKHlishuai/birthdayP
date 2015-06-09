@@ -44,6 +44,10 @@
 		4CAE37161B25982A00309EEE /* backgroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37121B25982A00309EEE /* backgroundStar@2x.png */; };
 		4CAE37171B25982A00309EEE /* foregroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37131B25982A00309EEE /* foregroundStar.png */; };
 		4CAE37181B25982A00309EEE /* foregroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE37141B25982A00309EEE /* foregroundStar@2x.png */; };
+		4CF9E9161B26CBEE002FEF45 /* GB.db in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9E9141B26CBEE002FEF45 /* GB.db */; };
+		4CF9E9171B26CBEE002FEF45 /* mydatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9E9151B26CBEE002FEF45 /* mydatabase.sqlite */; };
+		4CF9E91A1B26CC07002FEF45 /* BirthDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9E9191B26CC07002FEF45 /* BirthDatabase.m */; };
+		4CF9E91D1B26CF08002FEF45 /* BirthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9E91C1B26CF08002FEF45 /* BirthModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +124,12 @@
 		4CAE37121B25982A00309EEE /* backgroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@2x.png"; sourceTree = "<group>"; };
 		4CAE37131B25982A00309EEE /* foregroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foregroundStar.png; sourceTree = "<group>"; };
 		4CAE37141B25982A00309EEE /* foregroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foregroundStar@2x.png"; sourceTree = "<group>"; };
+		4CF9E9141B26CBEE002FEF45 /* GB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = GB.db; sourceTree = "<group>"; };
+		4CF9E9151B26CBEE002FEF45 /* mydatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mydatabase.sqlite; sourceTree = "<group>"; };
+		4CF9E9181B26CC07002FEF45 /* BirthDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthDatabase.h; sourceTree = "<group>"; };
+		4CF9E9191B26CC07002FEF45 /* BirthDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthDatabase.m; sourceTree = "<group>"; };
+		4CF9E91B1B26CF08002FEF45 /* BirthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthModel.h; sourceTree = "<group>"; };
+		4CF9E91C1B26CF08002FEF45 /* BirthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthModel.m; sourceTree = "<group>"; };
 		A7F61BDC79526E92FB667027 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FC993B8D1E026B529EE5E9B2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9264DFABE10ED4CB1A84AA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +185,7 @@
 		4C899F941B1FEC4E006A5A7E /* BirthdayP */ = {
 			isa = PBXGroup;
 			children = (
+				4CF9E9131B26CBEE002FEF45 /* db */,
 				4C899FBB1B202AB8006A5A7E /* base */,
 				4C899FBC1B202AB8006A5A7E /* const */,
 				4C899FBD1B202AB8006A5A7E /* controller */,
@@ -271,6 +282,8 @@
 		4C899FBF1B202AB8006A5A7E /* model */ = {
 			isa = PBXGroup;
 			children = (
+				4CF9E91B1B26CF08002FEF45 /* BirthModel.h */,
+				4CF9E91C1B26CF08002FEF45 /* BirthModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -349,6 +362,17 @@
 				4CAE37141B25982A00309EEE /* foregroundStar@2x.png */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		4CF9E9131B26CBEE002FEF45 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				4CF9E9141B26CBEE002FEF45 /* GB.db */,
+				4CF9E9151B26CBEE002FEF45 /* mydatabase.sqlite */,
+				4CF9E9181B26CC07002FEF45 /* BirthDatabase.h */,
+				4CF9E9191B26CC07002FEF45 /* BirthDatabase.m */,
+			);
+			path = db;
 			sourceTree = "<group>";
 		};
 		B1E887BF4646823175B6F090 /* Pods */ = {
@@ -444,6 +468,7 @@
 			files = (
 				4C899FDD1B202DDB006A5A7E /* tab_add@2x.png in Resources */,
 				4C899FE11B202DDB006A5A7E /* tab_personal_tap@2x.png in Resources */,
+				4CF9E9161B26CBEE002FEF45 /* GB.db in Resources */,
 				4CAE37181B25982A00309EEE /* foregroundStar@2x.png in Resources */,
 				4C899FDF1B202DDB006A5A7E /* tab_home_tap@2x.png in Resources */,
 				4CAE37151B25982A00309EEE /* backgroundStar.png in Resources */,
@@ -456,6 +481,7 @@
 				4CAE370A1B258A8500309EEE /* gender_taped@2x.png in Resources */,
 				4CAE370B1B258A8500309EEE /* gender_untaped.png in Resources */,
 				4C899FDE1B202DDB006A5A7E /* tab_home@2x.png in Resources */,
+				4CF9E9171B26CBEE002FEF45 /* mydatabase.sqlite in Resources */,
 				4CAE37161B25982A00309EEE /* backgroundStar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,7 +548,9 @@
 				4C9FDA7B1B217BE90049E827 /* MyDate.m in Sources */,
 				4CAE36FA1B257B8800309EEE /* BirthCanlendarView.m in Sources */,
 				4C899FCC1B202B72006A5A7E /* MyTabViewController.m in Sources */,
+				4CF9E91A1B26CC07002FEF45 /* BirthDatabase.m in Sources */,
 				4CAE36FD1B257B8800309EEE /* XZWCalendarView.m in Sources */,
+				4CF9E91D1B26CF08002FEF45 /* BirthModel.m in Sources */,
 				4CAE36FB1B257B8800309EEE /* CalendarDateView.m in Sources */,
 				4C899F9B1B1FEC4E006A5A7E /* AppDelegate.m in Sources */,
 				4C899F981B1FEC4E006A5A7E /* main.m in Sources */,

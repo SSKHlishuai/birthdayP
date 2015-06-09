@@ -10,4 +10,6 @@
 
 @interface AddNewView : UIView
 
+
+-(void)submitToDb;
 @end
